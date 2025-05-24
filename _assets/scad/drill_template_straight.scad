@@ -6,7 +6,7 @@
 // You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 // No warranties are given.
 
-include<./specification_of_components.scad>
+include<config.scad>
 
 module diagonal_cutout(){
     translate([0,0,4])rotate([0,-20,0]) union(){

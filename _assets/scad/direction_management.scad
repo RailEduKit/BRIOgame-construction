@@ -7,10 +7,8 @@
 // No warranties are given.
 
 
-$fn = 200;
-
-include<./specification_of_components.scad>
-include <BOSL2/std.scad>
+include<config.scad>
+use <BOSL2/std.scad> // Import std from dependency BelfrySCAD/BOSL2.git
 use<./basis_component-roundedBox.scad>
 use<./locking_pin.scad> // used in "visualize_arrowBlock_in_body"
 //V_axis();

@@ -6,18 +6,9 @@
 // You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 // No warranties are given.
 
- /**
- To render this shape, you will need
- * [tracklib.scad](http://www.thingiverse.com/thing:216915) installed in the same
- * directory as this file or you clone the hole library to the library folder of your openSCAD: [dotscad/trains](https://github.com/dotscad/trains). 
- 
- * FURTHERMORE: you need to clone the dotscad library 
- * (https://github.com/dotscad/dotscad.git) to your openSCAD library folder.
- * tracklib.scad uses this library.
- */
-
-include<./specification_of_components.scad>
-use<./switch_blade_optimized.scad>
+include<config.scad>
+use <trains/tracklib.scad>; // Import tracklib from dependency dotscad/trains.git
+use<./switch_blade.scad>
 
 // Length of the straight track, or auto to use the best fit for the requested curve radius.
 straight_size = straight_length; //145; // [auto:auto, 51:xsmall, 102:small, 152:medium, 203:large, 254:xlarge, 305:xxlarge]
@@ -28,18 +19,9 @@ radius = curve_inner_radius; //182; // [87.5:small, 180:large]
 // Angle of track to render.  45 is standard.
 angle = curve_angle;//45; // [1:360]
 
-
-$fa=3;
-$fs=1;
-
-
 /* ******************************************************************************
  * Main module code below:
  * ****************************************************************************** */
-
-// Import tracklib from globally-installed copy
-use <trains/tracklib.scad>; // the hole library "trains" is stored in the openSCAD folder "library"
-//use <trains/tracklib-3Dprint.scad>;
 
 /*
  * @param string base              Connector to place on the base end of the piece.

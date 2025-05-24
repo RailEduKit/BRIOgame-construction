@@ -7,11 +7,9 @@
 // No warranties are given.
 
 
-include<./specification_of_components.scad>
+include<config.scad>
 use<./basis_component-roundedBox.scad>
 use<./locking_pin.scad> // used in visualize_colorBlock_in_body("main", "y");
-
-$fn = 200;
 
 
 module equ_triangle(side_length,corner_radius,signal_triangle_height){

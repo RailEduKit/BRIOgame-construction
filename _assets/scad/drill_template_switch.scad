@@ -6,9 +6,8 @@
 // You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 // No warranties are given.
 
-include<./specification_of_components.scad>
+include<config.scad>
 
-$fn = 200;
 module switch_shape(){
     translate([dtc_outer_radius+45,0,dtc_cutout_z_pos]) rotate([0,0,180-curve_angle])union(){
         rotate_extrude(angle = curve_angle) square([dtc_outer_radius, dtc_cutout_height]);

@@ -6,6 +6,16 @@
 // You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 // No warranties are given.
 
+// preview[view:west, tilt:top]
+
+/*************** resolution ***************/
+// number of fragments; default 0;
+//When this variable has a value greater than zero, the two variables $fa and $fs are ignored
+$fn = $preview ? 32 : 128;
+
+// $fa = 12;// minimum angle for a fragment; default 12; minimum allowed value is 0.01
+// $fs = 2;// minimum size of a fragment; default 2; minimum allowed value is 0.01
+
 /*****
 To have the dimensions of all components at one place
 *******/

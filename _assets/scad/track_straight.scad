@@ -1,33 +1,22 @@
-/**
- * Parametric module to create a piece of track for Thomas- and Brio-compatible wooden
- * train sets.  Parameters allow for straight or curved track as well as combinations
- * (switches or points), including recommended measurements based on wooden track for
- * "small" and "large" curves.
+/* RailEduKit/InteractiveSignallingLaboratory © 2025 by Martin Scheidt and contributor
+ * License: CC-BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+ * Project description: The Interactive Signalling Laboratory is a tool for training in Rail
+ * Applications to enhance the knowledge of control and signalling principles for rail transport systems.
  *
- * To render this shape, you will need
- * [tracklib.scad](http://www.thingiverse.com/thing:216915) installed in the same
- * directory as this file, or the [dotscad/trains](https://github.com/dotscad/trains)
- * repository cloned in its entirety (which will include this file and tracklib.scad).
- *
- * This OpenSCAD library is part of the [dotscad](https://github.com/dotscad/dotscad)
- * project, an open collection of modules and Things for 3d printing.  Please check there
- * for the latest versions of this and other related files.
- *
- * @copyright  Chris Petersen, 2014
- * @license    http://creativecommons.org/licenses/LGPL/2.1/
- * @license    http://creativecommons.org/licenses/by-sa/3.0/
- *
- * @see        http://www.thingiverse.com/thing:395610
- * @source     https://github.com/dotscad/trains/blob/master/track-wooden/track-standard.scad
+ * Module: track_straight
+ * Description: Straight component for the Interactive Signalling Laboratory.
+ * It is used to create a straight track with a magnet hole and pin hole.
  */
 
-/* ******************************************************************************
- * Thingiverse Customizer parameters and rendering.
- * Unfortunately, Customizer doesn't support multiple .scad files so this won't work.
- * ****************************************************************************** */
+// Include configuration file
+include <config.scad>
 
-include<./specification_of_components.scad>
+// include common components
+include <components/magnet_hole.scad>
+include <components/pin_hole.scad>
 
+// include external libraries
+use <trains/tracklib.scad>; // Import tracklib from dependency dotscad/trains.git
 
 /* [parameters] */
 
@@ -57,19 +46,12 @@ angle = curve_angle; // [1:360]
 // Wheel wells on both sides of the track?
 double_sided_rails = true;
 
-
-// Lots of facets
-$fn=120;
-
 // Render the part
 //render_track(base, left, straight, right, straight_size, radius, angle, double_sided_rails);
 
 /* ******************************************************************************
  * Main module code below:
  * ****************************************************************************** */
-
-// Import tracklib from globally-installed copy
-use <trains/tracklib.scad>;
 
 /*
  * @param string base              Connector to place on the base end of the piece.
@@ -181,32 +163,18 @@ module render_track(base, left, straight, right, double_sided_rails) {
     }
 }
 
-module magnet_hole(){
-    cylinder(h=magnet_thickness+move_tolerance, d=magnet_diameter);
-}
-
-module pin_hole(){
-    cylinder(h=rail_height, d=om_pin_diameter+move_tolerance);
-}
-
-module curve_shape_control(){
-    linear_extrude(height = 1) projection() render_track("female","none","none","male", false);
-}
-
-module curve_with_drill_holes(){
+module straight_with_drill_holes() {
     difference(){
-        render_track("female","none","none","male", true);
-        translate([c_ph1_xpos, c_ph1_ypos, 0]) pin_hole();
-        translate([c_ph2_xpos, c_ph2_ypos, 0]) pin_hole();
-        translate([c_ph3_xpos, c_ph3_ypos, 0]) pin_hole();
-        translate([c_mh4_xpos, c_mh4_ypos, c_mh_zpos]) rotate([0,90,c_mh4_zrot]) magnet_hole();
-        translate([c_mh5_xpos, c_mh5_ypos, c_mh_zpos]) rotate([0,-90,c_mh5_zrot]) magnet_hole();
-        translate([c_mh6_xpos, c_mh6_ypos, c_mh_zpos]) rotate([0,90,c_mh6_zrot]) magnet_hole();
-    translate([c_mh7_xpos, c_mh7_ypos, c_mh_zpos]) rotate([0,-90,c_mh7_zrot]) magnet_hole();
+        render_track("female", "none", "male", "none", false);
+        translate([s_ph_xpos, s_ph1_ypos, 0]) pin_hole();
+        translate([s_ph_xpos, s_ph2_ypos, 0]) pin_hole();
+        translate([s_ph_xpos, s_ph3_ypos, 0]) pin_hole();
+        translate([0,s_mh_ypos1, s_mh_zpos]) rotate([0,90,0]) magnet_hole();
+        translate([s_mh_xpos,s_mh_ypos1, s_mh_zpos]) rotate([0,-90,0]) magnet_hole();
+        translate([0,s_mh_ypos2, s_mh_zpos]) rotate([0,90,0]) magnet_hole();
+        translate([s_mh_xpos,s_mh_ypos2, s_mh_zpos]) rotate([0,-90,0]) magnet_hole();
+        
     }
-    
 }
 
-//curve_shape_control();
-curve_with_drill_holes();
-//render_track("female","none","none","male", true);
+straight_with_drill_holes();

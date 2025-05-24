@@ -6,10 +6,9 @@
 // You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 // No warranties are given.
 
-include<./specification_of_components.scad>
+include<config.scad>
 use<./curve.scad>
 
-$fn = 200;
 
 module connector_cutout(){
     translate([0,0,dtc_cutout_z_pos]) difference(){

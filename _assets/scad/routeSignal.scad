@@ -7,12 +7,10 @@
 // No warranties are given.
 
 
-$fn = 200;
-
-include<./specification_of_components.scad>
+include<config.scad>
 use<./basis_component-roundedBox.scad>
 
-roadCheckbox();
+routeSignal();
 
 //overlap_symbol();
 //turnout_locking_symbol();
@@ -112,7 +110,7 @@ module side_protection_symbol(){
 }
 
 
-module roadCheckbox(){
+module routeSignal(){
     difference(){
         curvedBox(); // import from basis_component-roundedBox
         for (y=[body_depth*(1/6), body_depth/2, body_depth*(5/6)]){

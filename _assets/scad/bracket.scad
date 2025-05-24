@@ -50,8 +50,6 @@ module offset_3d(r=1.0) {
 }
 
 // End Fillet function
-    
-$fn = 50;// number of fragments
 
 fissure = 0.5;
 pin_length = 10;

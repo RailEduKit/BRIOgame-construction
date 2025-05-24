@@ -1,0 +1,2175 @@
+{
+  "distant-main_signal.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 6,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 200208,
+          "entries": 15,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 169,
+        "hours": 0,
+        "time": "0:00:00.169",
+        "total": 169,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 112.94334311308897,
+        "translation": [
+          10.0,
+          4.4375,
+          6.75
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            20.0,
+            22.875,
+            13.5
+          ],
+          "min": [
+            0.0,
+            -14.0,
+            0.0
+          ],
+          "size": [
+            20.0,
+            36.875,
+            13.5
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 806,
+        "facets": 1616
+      }
+    },
+    "timeout": 60,
+    "output": "ECHO: \"handle space: \", 5.25\nECHO: \"axis height: \", 8.75\nECHO: \"wall_thickness_x: \", 4.5\nECHO: \"block_depth: \", 19.5\nECHO: \"y pos lockpin: \", 2\nECHO: \"(block_height-handle_height)/2: \", 5.25\nECHO: \"(block_height+handle_height)/2: \", 8.25\n",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [
+        "DEPRECATED: Variable names starting with digits (\"2D_drawing_signal_body\") will be removed in future releases. in file _assets/scad/distant-main_signal.scad, line 241",
+        "DEPRECATED: Variable names starting with digits (\"2D_drawing_color_block\") will be removed in future releases. in file _assets/scad/distant-main_signal.scad, line 252"
+      ],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536097407e9,
+    "last_attempt": 1.747931372459753e9
+  },
+  "clearing_point.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 9,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 296880,
+          "entries": 18,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 183,
+        "hours": 0,
+        "time": "0:00:00.183",
+        "total": 183,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 81.6118563112239,
+        "translation": [
+          12.5,
+          5.0,
+          8.5
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            25.0,
+            10.0,
+            17.0
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            25.0,
+            10.0,
+            17.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 1318,
+        "facets": 2632
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [
+        "DEPRECATED: Variable names starting with digits (\"2D_drawing_signal_body\") will be removed in future releases. in file _assets/scad/distant-main_signal.scad, line 241",
+        "DEPRECATED: Variable names starting with digits (\"2D_drawing_color_block\") will be removed in future releases. in file _assets/scad/distant-main_signal.scad, line 252"
+      ],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536077025e9,
+    "last_attempt": 1.747931371122555e9
+  },
+  "test_pins.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 2,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 327952,
+          "entries": 32,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 210,
+        "hours": 0,
+        "time": "0:00:00.210",
+        "total": 210,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 188.9253343947975,
+        "translation": [
+          34.875,
+          11.4,
+          3.5
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            69.75,
+            22.8,
+            7.0
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            69.75,
+            22.8,
+            7.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 2393,
+        "facets": 4818
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7474203057022731e9,
+    "last_attempt": 1.747931379581349e9
+  },
+  "direction_management.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 0,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 0,
+          "entries": 1,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 161,
+        "hours": 0,
+        "time": "0:00:00.161",
+        "total": 161,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 140.0,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fov": 22.5
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [
+        "WARNING: Ignoring unknown variable \"$anchor_override\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3090",
+        "WARNING: Ignoring unknown variable \"$attach_to\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3751",
+        "WARNING: Ignoring unknown variable \"$transform\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1614",
+        "WARNING: undefined operation (undefined * vector) in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1614",
+        "WARNING: Ignoring unknown variable \"$tags_shown\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 4273",
+        "WARNING: Ignoring unknown variable \"$tags_shown\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 4273"
+      ],
+      "DEPRECATED": [],
+      "TRACE": [
+        "TRACE: called by '_is_shown' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3113",
+        "TRACE: called by 'if' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3113",
+        "TRACE: called by 'children' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1615",
+        "TRACE: called by 'children' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/builtins.scad, line 30",
+        "TRACE: called by 'multmatrix' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/builtins.scad, line 30",
+        "TRACE: call of '_multmatrix(m = [[1, 0, 0, 10], [0, 1, 0, 8], [0, 0, 1, 3.5], [0, 0, 0, 1]])' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/builtins.scad, line 30",
+        "TRACE: called by '_multmatrix' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1615",
+        "TRACE: call of 'multmatrix(m = [[1, 0, 0, 10], [0, 1, 0, 8], [0, 0, 1, 3.5], [0, 0, 0, 1]])' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1609",
+        "TRACE: called by 'multmatrix' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3104",
+        "TRACE: call of 'attachable(anchor = [-1, -1, -1], spin = 0, orient = [0, 0, 1], size = [20, 16, 7], size2 = undef, shift = undef, r = undef, r1 = undef, r2 = undef, d = undef, d1 = undef, d2 = undef, l = undef, h = undef, vnf = undef, path = undef, region = undef, extent = true, cp = [0, 0, 0], offset = [0, 0, 0], anchors = [], two_d = false, axis = [0, 0, 1], override = undef, geom = [\"prismoid\", [20, 16, 7], [20, 16], [0, 0], [0, 0, 1], function(anchor) [undef, undef, undef], [0, 0, 0], [0, 0, 0], []], expose_tags = false, keep_color = false)' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3081",
+        "TRACE: called by 'attachable' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/shapes3d.scad, line 62",
+        "TRACE: call of 'cube(size = [20, 16, 7], center = undef, anchor = [-1, -1, -1], spin = 0, orient = [0, 0, 1])' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/shapes3d.scad, line 58"
+      ],
+      "ERROR": [
+        "ERROR: Assertion '(is_list($tags_shown) || ($tags_shown == \"ALL\"))' failed in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 4273"
+      ]
+    },
+    "success": true,
+    "mtime": 1.7478570445664792e9,
+    "last_attempt": 1.747931372028126e9
+  },
+  "overlap_measure.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 0,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 0,
+          "entries": 1,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 166,
+        "hours": 0,
+        "time": "0:00:00.166",
+        "total": 166,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 140.0,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fov": 22.5
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [
+        "WARNING: Ignoring unknown variable \"$transform\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1582",
+        "WARNING: undefined operation (undefined * vector) in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1582",
+        "WARNING: variable \"convexity\" not specified as parameter in file overlap_measure.scad, line 55",
+        "WARNING: undefined operation (undefined * vector) in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1595",
+        "WARNING: undefined operation (undefined * vector) in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1604",
+        "WARNING: undefined operation (undefined * vector) in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1582",
+        "WARNING: variable \"d\" not specified as parameter in file overlap_measure.scad, line 171",
+        "WARNING: Ignoring unknown variable \"$anchor_override\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3090",
+        "WARNING: Ignoring unknown variable \"$attach_to\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3751",
+        "WARNING: undefined operation (undefined * vector) in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1614",
+        "WARNING: Ignoring unknown variable \"$tags_shown\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 4273",
+        "WARNING: Ignoring unknown variable \"$tags_shown\" in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 4273"
+      ],
+      "DEPRECATED": [],
+      "TRACE": [
+        "TRACE: called by '_is_shown' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3113",
+        "TRACE: called by 'if' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3113",
+        "TRACE: called by 'children' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1615",
+        "TRACE: called by 'children' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/builtins.scad, line 30",
+        "TRACE: called by 'multmatrix' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/builtins.scad, line 30",
+        "TRACE: call of '_multmatrix(m = [[1, 0, 0, 9.675], [0, 1, 0, 0.5], [0, 0, 1, 0], [0, 0, 0, 1]])' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/builtins.scad, line 30",
+        "TRACE: called by '_multmatrix' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1615",
+        "TRACE: call of 'multmatrix(m = [[1, 0, 0, 9.675], [0, 1, 0, 0.5], [0, 0, 1, 0], [0, 0, 0, 1]])' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/transforms.scad, line 1609",
+        "TRACE: called by 'multmatrix' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3104",
+        "TRACE: call of 'attachable(anchor = [-1, -1], spin = 0, orient = [0, 0, 1], size = [19.35, 1], size2 = undef, shift = undef, r = undef, r1 = undef, r2 = undef, d = undef, d1 = undef, d2 = undef, l = undef, h = undef, vnf = undef, path = undef, region = undef, extent = true, cp = [0, 0, 0], offset = [0, 0, 0], anchors = [], two_d = true, axis = [0, 0, 1], override = undef, geom = [\"trapezoid\", [19.35, 1], 19.35, 0, function(anchor) [undef, undef, undef], [0, 0, 0], [0, 0, 0], []], expose_tags = false, keep_color = false)' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 3081",
+        "TRACE: called by 'attachable' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/shapes2d.scad, line 72",
+        "TRACE: call of 'square(size = [19.35, 1], center = undef, anchor = [-1, -1], spin = undef)' in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/shapes2d.scad, line 68"
+      ],
+      "ERROR": [
+        "ERROR: Assertion '(is_list($tags_shown) || ($tags_shown == \"ALL\"))' failed in file ../../../../../../Documents/OpenSCAD/libraries/BOSL2/attachments.scad, line 4273"
+      ]
+    },
+    "success": true,
+    "mtime": 1.7478570109538026e9,
+    "last_attempt": 1.747931377108334e9
+  },
+  "switch_blade.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 10,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 226128,
+          "entries": 21,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 201,
+        "hours": 0,
+        "time": "0:00:00.201",
+        "total": 201,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 120.09002458559502,
+        "translation": [
+          0.0,
+          21.0,
+          4.2
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            9.5,
+            42.0,
+            8.4
+          ],
+          "min": [
+            -9.5,
+            0.0,
+            0.0
+          ],
+          "size": [
+            19.0,
+            42.0,
+            8.4
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 2405,
+        "facets": 4822
+      }
+    },
+    "timeout": 60,
+    "output": "ECHO: \"pin_diameter*0.3\", 1.95\n",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536132107e9,
+    "last_attempt": 1.747931378453247e9
+  },
+  "balise.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 1,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 45056,
+          "entries": 4,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 177,
+        "hours": 0,
+        "time": "0:00:00.177",
+        "total": 177,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 77.47522139957458,
+        "translation": [
+          0.0,
+          0.0,
+          3.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            6.625,
+            13.25,
+            6.0
+          ],
+          "min": [
+            -6.625,
+            -13.25,
+            0.0
+          ],
+          "size": [
+            13.25,
+            26.5,
+            6.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 264,
+        "facets": 524
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536068385e9,
+    "last_attempt": 1.747931369805848e9
+  },
+  "routeSignal.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 31,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 430240,
+          "entries": 62,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 207,
+        "hours": 0,
+        "time": "0:00:00.207",
+        "total": 207,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 154.63218193431896,
+        "translation": [
+          15.0,
+          25.0,
+          7.75
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            30.0,
+            50.0,
+            15.5
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            30.0,
+            50.0,
+            15.5
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 2181,
+        "facets": 4358
+      }
+    },
+    "timeout": 60,
+    "output": "ECHO: 1\nECHO: 5\nECHO: 9\nECHO: 13\n",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536124222e9,
+    "last_attempt": 1.747931377546957e9
+  },
+  "straight.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 23,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 513744,
+          "entries": 53,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 212,
+        "hours": 0,
+        "time": "0:00:00.212",
+        "total": 212,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 428.76587335807176,
+        "translation": [
+          20.0,
+          81.0,
+          6.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            40.0,
+            162.0,
+            12.0
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            40.0,
+            162.0,
+            12.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 2691,
+        "facets": 5382
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [
+        "WARNING: Can't open library 'dotscad/pie.scad'. in file ../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 53",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 185",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 185",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 185",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 135",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 135",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 135",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 138",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 138",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 192",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 192",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 193",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 193",
+        "WARNING: Unable to convert translate([undef, 20, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 194",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: Unable to convert cube(size=[1.1, undef, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: Unable to convert translate([undef, 20, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 194",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: Unable to convert cube(size=[1.1, undef, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 193",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 193",
+        "WARNING: Unable to convert translate([undef, 20, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 194",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: Unable to convert cube(size=[1.1, undef, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: Unable to convert translate([undef, 20, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 194",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: Unable to convert cube(size=[1.1, undef, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 196",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 386",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 386",
+        "WARNING: Unable to convert translate([undef, -3, 0]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 386",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: Unable to convert cube(size=[undef, 6, 10], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: Unable to convert cube(size=[undef, 4, 12], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 95",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 95",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 95",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 96",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 96",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 96",
+        "WARNING: undefined operation (undefined - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 97",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: Unable to convert translate([undef, -3.75, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Unable to convert cube(size=[undef, 7.5, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: undefined operation (undefined - number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: Unable to convert translate([12, 0, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 110",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 110",
+        "WARNING: Unable to convert translate([12, 0, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 110",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 113",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 113",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 216",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 216",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 216",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 218",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 218",
+        "WARNING: Unable to convert translate([0, 0, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 218",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 218",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 218",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 218",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Unable to convert square(size=[5.7, undef], ...) parameter to a number or a vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Unable to convert square(size=[5.7, undef], ...) parameter to a number or a vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 220",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 220",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 220",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 220",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 221",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 222",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 224"
+      ],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7478566255054567e9,
+    "last_attempt": 1.747931378128164e9
+  },
+  "coupler.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 1,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 187840,
+          "entries": 8,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 168,
+        "hours": 0,
+        "time": "0:00:00.168",
+        "total": 168,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 82.06773820992063,
+        "translation": [
+          0.0,
+          -5.5,
+          -1.7
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            10.0,
+            7.0,
+            -1.4
+          ],
+          "min": [
+            -10.0,
+            -18.0,
+            -2.0
+          ],
+          "size": [
+            20.0,
+            25.0,
+            0.6000000000000001
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 524,
+        "facets": 1040
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536083992e9,
+    "last_attempt": 1.747931371415978e9
+  },
+  "curve.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 27,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 1001584,
+          "entries": 57,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 221,
+        "hours": 0,
+        "time": "0:00:00.221",
+        "total": 221,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 1594.9618316478964,
+        "translation": [
+          219.99999999999997,
+          0.0,
+          6.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            439.9835813252994,
+            219.98358132529944,
+            12.0
+          ],
+          "min": [
+            0.016418674700560132,
+            -219.98358132529944,
+            0.0
+          ],
+          "size": [
+            439.9671626505988,
+            439.9671626505989,
+            12.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 2931,
+        "facets": 5870
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [
+        "WARNING: Can't open library 'dotscad/pie.scad'. in file ../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 53",
+        "WARNING: Ignoring unknown module 'pie' in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 244",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 135",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 135",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 135",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 138",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 138",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 139",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 386",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 386",
+        "WARNING: Unable to convert translate([undef, -3, 0]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 386",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: Unable to convert cube(size=[undef, 6, 10], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 389",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: Unable to convert cube(size=[undef, 4, 12], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 391",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 95",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 95",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 95",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 96",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 96",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 96",
+        "WARNING: undefined operation (undefined - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 97",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: Unable to convert translate([undef, -3.75, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 100",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Unable to convert cube(size=[undef, 7.5, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 101",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 104",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: undefined operation (undefined - number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: Unable to convert translate([12, 0, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 107",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 108",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 110",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 110",
+        "WARNING: Unable to convert translate([12, 0, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 110",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (undefined + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 111",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 113",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 113",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 114",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 115",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: undefined operation (undefined + number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Unable to convert cube(size=[undef, 1.1, 1.1], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 117",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 267",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 267",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 267",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: Problem converting rotate(a=[0, 0, undef]) parameter in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: Ignoring unknown module 'pie' in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Unable to convert square(size=[5.7, undef], ...) parameter to a number or a vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Unable to convert square(size=[5.7, undef], ...) parameter to a number or a vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 267",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 267",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 267",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: Problem converting rotate(a=[0, 0, undef]) parameter in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: Ignoring unknown module 'pie' in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 270",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: undefined operation (number * undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 158",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Unable to convert square(size=[5.7, undef], ...) parameter to a number or a vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: Unable to convert square(size=[5.7, undef], ...) parameter to a number or a vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 163",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 167",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 169",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 280",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (-undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (undefined / number) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: undefined operation (number - undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Unable to convert translate([undef, undef, undef]) parameter to a vec3 or vec2 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 281",
+        "WARNING: Ignoring unknown variable \"$o\" in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: undefined operation (number + undefined) in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283",
+        "WARNING: Unable to convert cube(size=[1.1, 1.1, undef], ...) parameter to a number or a vec3 of numbers in file ../../../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 283"
+      ],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7478566255175369e9,
+    "last_attempt": 1.747931371690266e9
+  },
+  "signal.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 1,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 54000,
+          "entries": 9,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 163,
+        "hours": 0,
+        "time": "0:00:00.163",
+        "total": 163,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 84.06987746681163,
+        "translation": [
+          10.0,
+          12.0,
+          5.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            20.0,
+            24.0,
+            10.0
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            20.0,
+            24.0,
+            10.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 416,
+        "facets": 828
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.747420305701206e9,
+    "last_attempt": 1.747931377860639e9
+  },
+  "drill_template_switch.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 8,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 59232,
+          "entries": 35,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 169,
+        "hours": 0,
+        "time": "0:00:00.169",
+        "total": 169,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 424.6166969869883,
+        "translation": [
+          42.5,
+          61.25,
+          18.15
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            85.0,
+            130.0,
+            36.3
+          ],
+          "min": [
+            0.0,
+            -7.5,
+            0.0
+          ],
+          "size": [
+            85.0,
+            137.5,
+            36.3
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 226,
+        "facets": 460
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536107278e9,
+    "last_attempt": 1.747931373293758e9
+  },
+  "test_magnets.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 1,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 281040,
+          "entries": 26,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 186,
+        "hours": 0,
+        "time": "0:00:00.186",
+        "total": 186,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 195.83466527259515,
+        "translation": [
+          37.125,
+          9.0,
+          0.625
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            74.25,
+            18.0,
+            1.25
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            74.25,
+            18.0,
+            1.25
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 1474,
+        "facets": 3016
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7474203057020667e9,
+    "last_attempt": 1.74793137929071e9
+  },
+  "basis_component-roundedBox.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 4,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 197664,
+          "entries": 12,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 175,
+        "hours": 0,
+        "time": "0:00:00.175",
+        "total": 175,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 153.39536050812143,
+        "translation": [
+          15.0,
+          25.0,
+          6.75
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            30.0,
+            50.0,
+            13.5
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            30.0,
+            50.0,
+            13.5
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 1048,
+        "facets": 2092
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536073124e9,
+    "last_attempt": 1.747931370525505e9
+  },
+  "number_plate.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 181,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 15972288,
+          "entries": 243,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 83,
+        "hours": 0,
+        "time": "0:00:01.083",
+        "total": 1083,
+        "minutes": 0,
+        "seconds": 1
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 471.6813326593719,
+        "translation": [
+          -4.0,
+          -53.875,
+          3.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            81.0,
+            -18.75,
+            6.0
+          ],
+          "min": [
+            -89.0,
+            -89.0,
+            0.0
+          ],
+          "size": [
+            170.0,
+            70.25,
+            6.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 84358,
+        "facets": 168476
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536116745e9,
+    "last_attempt": 1.747931375910925e9
+  },
+  "switch_body.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 0,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 0,
+          "entries": 1,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 158,
+        "hours": 0,
+        "time": "0:00:00.158",
+        "total": 158,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 140.0,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fov": 22.5
+      }
+    },
+    "timeout": 60,
+    "output": "ECHO: 8.5\n",
+    "messages": {
+      "WARNING": [
+        "WARNING: Can't open library 'dotscad/pie.scad'. in file ../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 53"
+      ],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7478566255156114e9,
+    "last_attempt": 1.747931378761168e9
+  },
+  "drill_template_straight.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 8,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 30528,
+          "entries": 36,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 169,
+        "hours": 0,
+        "time": "0:00:00.169",
+        "total": 169,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 433.607802682518,
+        "translation": [
+          79.5,
+          18.15,
+          22.5
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            159.0,
+            36.3,
+            45.0
+          ],
+          "min": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "size": [
+            159.0,
+            36.3,
+            45.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 204,
+        "facets": 460
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536104138e9,
+    "last_attempt": 1.747931373019736e9
+  },
+  "bracket.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 56,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 77256,
+          "entries": 26,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 211,
+        "hours": 0,
+        "time": "0:00:00.211",
+        "total": 211,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 44.166875807742976,
+        "translation": [
+          0.0,
+          0.0,
+          4.923879532511287
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            5.0,
+            5.0,
+            9.847759065022574
+          ],
+          "min": [
+            -5.0,
+            -5.0,
+            0.0
+          ],
+          "size": [
+            10.0,
+            10.0,
+            9.847759065022574
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 253,
+        "facets": 502
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477181927383559e9,
+    "last_attempt": 1.747931370805451e9
+  },
+  "test_code.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 0,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 560,
+          "entries": 1,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 159,
+        "hours": 0,
+        "time": "0:00:00.159",
+        "total": 159,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 18.072978485411465,
+        "translation": [
+          0.0,
+          0.0,
+          0.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "convex": true,
+        "bounding_box": {
+          "max": [
+            2.5,
+            2.4863047384206833
+          ],
+          "min": [
+            -2.5,
+            -2.4863047384206833
+          ],
+          "size": [
+            5.0,
+            4.972609476841367
+          ]
+        },
+        "dimensions": 2,
+        "contours": 1
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [
+        "WARNING: variable \"h\" not specified as parameter in file test_code.scad, line 9"
+      ],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7474203057018986e9,
+    "last_attempt": 1.747931379027275e9
+  },
+  "locking_pin.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 5,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 787632,
+          "entries": 7,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 950,
+        "hours": 0,
+        "time": "0:00:01.950",
+        "total": 1950,
+        "minutes": 0,
+        "seconds": 1
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 81.73121112539346,
+        "translation": [
+          0.0,
+          0.0,
+          12.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            6.999849319458008,
+            6.999849319458008,
+            24.499849319458008
+          ],
+          "min": [
+            -6.999849319458008,
+            -6.999849319458008,
+            -0.4998493194580078
+          ],
+          "size": [
+            13.999698638916016,
+            13.999698638916016,
+            24.999698638916016
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 22624,
+        "facets": 45244
+      }
+    },
+    "timeout": 60,
+    "output": "ECHO: \"lever_height+2*rounding: \", 11\nECHO: \"z_pos_axis-handle_height/2+move_tolerance+2*rounding: \", 10\n",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536110284e9,
+    "last_attempt": 1.747931373569151e9
+  },
+  "drill_template_curve.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 12,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 86544,
+          "entries": 62,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 171,
+        "hours": 0,
+        "time": "0:00:00.171",
+        "total": 171,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 567.4120001754271,
+        "translation": [
+          52.5,
+          88.25,
+          18.15
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            105.0,
+            184.0,
+            36.3
+          ],
+          "min": [
+            0.0,
+            -7.5,
+            0.0
+          ],
+          "size": [
+            105.0,
+            191.5,
+            36.3
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 398,
+        "facets": 808
+      }
+    },
+    "timeout": 60,
+    "output": "ECHO: \"dtc_outer_radius: \", 105\n",
+    "messages": {
+      "WARNING": [
+        "WARNING: Can't open library 'dotscad/pie.scad'. in file ../../../../Documents/OpenSCAD/libraries/trains/tracklib.scad, line 53"
+      ],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536101213e9,
+    "last_attempt": 1.747931372739937e9
+  },
+  "magnet_rod.scad": {
+    "summary": {
+      "cache": {
+        "cgal_cache": {
+          "bytes": 0,
+          "entries": 6,
+          "max_size": 104857600
+        },
+        "geometry_cache": {
+          "bytes": 130080,
+          "entries": 6,
+          "max_size": 104857600
+        }
+      },
+      "time": {
+        "milliseconds": 176,
+        "hours": 0,
+        "time": "0:00:00.176",
+        "total": 176,
+        "minutes": 0,
+        "seconds": 0
+      },
+      "camera": {
+        "rotation": [
+          55.0,
+          0.0,
+          25.0
+        ],
+        "distance": 266.34598625948564,
+        "translation": [
+          0.0,
+          0.0,
+          50.0
+        ],
+        "fov": 22.5
+      },
+      "geometry": {
+        "bounding_box": {
+          "max": [
+            10.0,
+            10.0,
+            100.0
+          ],
+          "min": [
+            -10.0,
+            -10.0,
+            0.0
+          ],
+          "size": [
+            20.0,
+            20.0,
+            100.0
+          ]
+        },
+        "dimensions": 3,
+        "simple": true,
+        "vertices": 1792,
+        "facets": 3580
+      }
+    },
+    "timeout": 60,
+    "output": "",
+    "messages": {
+      "WARNING": [],
+      "DEPRECATED": [],
+      "TRACE": [],
+      "ERROR": []
+    },
+    "success": true,
+    "mtime": 1.7477308536113284e9,
+    "last_attempt": 1.747931375630067e9
+  }
+}

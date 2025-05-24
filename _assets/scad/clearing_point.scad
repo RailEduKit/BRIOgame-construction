@@ -1,20 +1,21 @@
-// Copyright 2024 Martin Scheidt (Attribution 4.0 International, CC-BY 4.0)
-//
-// You are free to copy and redistribute the material in any medium or format.
-// You are free to remix, transform, and build upon the material for any purpose, even commercially.
-// You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-// You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-// No warranties are given.
+/* RailEduKit/InteractiveSignallingLaboratory © 2025 by Martin Scheidt and contributor
+ * License: CC-BY 4.0 - https://creativecommons.org/licenses/by/4.0/
+ * Project description: The Interactive Signalling Laboratory is a tool for training in Rail
+ * Applications to enhance the knowledge of control and signalling principles for rail transport systems.
+ *
+ * Module: clearing_point
+ * Description: Clearing point component for the Interactive Signalling Laboratory.
+ * It is used to create a clearing point with a route and block symbol.
+ */
 
-include<./specification_of_components.scad>
-use<./distant-main_signal.scad> // for the arrow
+// Include configuration file
+include <config.scad>
 
-$fn = 50;
+// include common components
+include <components/magnet_hole.scad>
+include <components/driving_direction_arrow.scad>
 
-module magnet_hole(){
-    cylinder(h=magnet_thickness+move_tolerance, d=magnet_diameter+move_tolerance);
-}
-module route_clearing_point(){
+module route_clearing_symbol(){
     union(){
         difference(){
             cylinder(h=engraving_height, d=cp_symbol_size);
@@ -23,7 +24,7 @@ module route_clearing_point(){
     }
 }
 
-module block_clearing_point(){
+module block_clearing_symbol(){
     translate([0,0,engraving_height/2]) union(){    
         difference(){
             cube([cp_symbol_size,cp_symbol_size,engraving_height], center=true);
@@ -31,8 +32,6 @@ module block_clearing_point(){
         }
     }
 }
-
-
 
 module clearing_point(type){
     difference(){
@@ -45,14 +44,13 @@ module clearing_point(type){
     }
     translate([zs_with*(4/5),(zs_depth-attach_arrow_depth)/2,zs_height]) rotate([0,0,90]) driving_direction_arrow();
     //symbols
-    if(type == "rcp"){
-            translate([zs_with/2,zs_depth/2,zs_height]) route_clearing_point();
+    if(type == "route"){
+            translate([zs_with/2,zs_depth/2,zs_height]) route_clearing_symbol();
     }
-    if(type == "bcp"){
-            translate([zs_with/2,zs_depth/2,zs_height]) block_clearing_point();
+    if(type == "block"){
+            translate([zs_with/2,zs_depth/2,zs_height]) block_clearing_symbol();
     }
 }
 
-clearing_point("bcp");
-//route_clearing_point();
-//block_clearing_point();
+clearing_point("block");
+translate([0,20,0]) clearing_point("route");

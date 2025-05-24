@@ -6,9 +6,7 @@
 // You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
 // No warranties are given.
 
-include<./specification_of_components.scad>
-   
-$fn = 50;// number of fragments
+include<config.scad>
 
 locking_pin();
 
