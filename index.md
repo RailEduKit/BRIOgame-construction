@@ -1,8 +1,21 @@
 +++
-title = "SigLab construction howto"
+title = "SigLab Construction Guide"
 +++
 
-* two version: paper prototype for fast iteration and wooden final version for durability
+# Interactive Signalling Laboratory (SigLab)
+
+The SigLab is an educational tool designed to teach railway signalling concepts through hands-on experience. This guide will help you build your own SigLab, whether you choose the paper prototype for quick iteration or the wooden version for durability.
+
+## Quick Links
+
+* [About SigLab](about.md) - Learn about the concept and purpose
+* [Components](components/) - Detailed information about each component
+* [Construction Guide](construction/) - Step-by-step building instructions
+* [Gameplay](gameplay/) - Rules and mechanics
+
+## Overview
+
+The SigLab comes in two versions:
 
 ~~~<div class="grid-container">~~~
 \figenv{Overview paper version}{/assets/images/paper-version-set.jpeg}{width:100%}
@@ -11,29 +24,26 @@ title = "SigLab construction howto"
 \figenv{Setup wooden version}{/assets/images/wood-version-setup.jpeg}{width:100%}
 ~~~</div>~~~
 
-# Goal of this howto
+## Key Features
 
-* build your own version
-* test game mechanics and adapt them to your needs
+* Turn-based gameplay on discrete tracks
+* Physics simulation of speed, time, and velocity as discrete values
+* Interactive processes through participant tokens
+* Cooperative gameplay mechanics
+* Track movement and linear progression system
 
-# Game Mechanics
+## Getting Started
 
-modified [wooden toy train](https://en.wikipedia.org/wiki/Wooden_toy_train) a.k.a. BRIO.
-* Turn-based game on discrete tracks
-* physics of $s$, $t$, $v$ as discrete values
-* processes and interaction by the participants an token
-* [simulation](https://boardgamegeek.com/boardgamemechanic/2070/simulation)
-* [cooperative game](https://boardgamegeek.com/boardgamemechanic/2023/cooperative-game)
-* 
+1. Read the [About](about.md) section to understand the concept
+2. Review the [Components](components/) to understand what you'll be building
+3. Follow the [Construction Guide](construction/) to build your SigLab
+4. Learn the [Gameplay](gameplay/) rules and mechanics
 
-* [track movement](https://boardgamegeek.com/boardgamemechanic/2939/track-movement)
-* [linear tech tree](https://boardgamegeek.com/boardgamemechanic/2849/tech-trees-tech-tracks)
+## Components Overview
 
-# Components
-
-* tracks
-* vehicles
-* signals
-* turnouts
-* token
-* marker
+* Tracks - The foundation of your railway network
+* Vehicles - Trains that move along the tracks
+* Signals - Control and safety elements
+* Turnouts - Track switching mechanisms
+* Tokens - Game pieces for interaction
+* Markers - Indicators for game state
