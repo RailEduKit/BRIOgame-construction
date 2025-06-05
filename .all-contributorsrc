@@ -17,20 +17,82 @@
         "code",
         "design",
         "ideas",
+        "content",
         "mentoring",
         "maintenance",
-        "fundingFinding"
+        "fundingFinding",
+        "review"
       ]
     },
     {
-      "login": "ThanDerJoren",
-      "name": "ThanDerJoren",
+      "login": "j-weck",
+      "name": "Julek Weck",
       "avatar_url": "https://avatars.githubusercontent.com/u/113887898?v=4",
-      "profile": "https://github.com/ThanDerJoren",
+      "profile": "https://github.com/j-weck",
       "contributions": [
         "code",
         "design",
-        "ideas"
+        "ideas",
+        "content",
+        "tool"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Felix Nebel",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "design",
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Jan Werner",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "design",
+        "ideas",
+        "content",
+        "tool"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Lukas Gruber",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "design",
+        "ideas",
+        "content"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Leonhard Pelster",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "design",
+        "ideas",
+        "content",
+        "tutorial"
+      ]
+    },
+    {
+      "login": "",
+      "name": "Paula Neumann-Hillebrand",
+      "avatar_url": "",
+      "profile": "",
+      "contributions": [
+        "design",
+        "ideas",
+        "content",
+        "review"
       ]
     }
   ]
