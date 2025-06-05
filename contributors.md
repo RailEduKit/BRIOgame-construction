@@ -25,3 +25,9 @@ title = "SigLab construction contributors"
 <!-- prettier-ignore-end -->
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 ~~~
+
+# Acknowledgement
+
+The development of this project has been supported by the Innovationsprogramm Gute Lehre "teach4TU" of the Technische Universität Braunschweig, which has enabled the implementation of innovative teaching concepts in railway engineering education.
+
+This project has also received funding from Stadler Signalling Deutschland GmbH. Their support has been instrumental in the improvement of the Interactive Signalling Laboratory.
