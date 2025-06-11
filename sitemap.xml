@@ -2,50 +2,104 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/instruction_for_components/construction-magnet_rod/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/paper/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/wood/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/gameplay/rules/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/instruction_for_components/construction-main_signal/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/construction/assembly/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/construction/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/instruction_for_components/construction-main_signal/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/paper/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/about/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/instruction_for_components/construction-locking_pin/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/components/signals/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>
 <url>
-    <loc>railedukit.github.io/InteractiveSignallingLaboratory-construction/contributors/index.html</loc>
-    <lastmod>2025-05-21</lastmod>
+    <loc>https://siglab.railedukit.org/components/tracks/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/construction/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/instruction_for_components/construction-locking_pin/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/components/trains/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/construction/3d-printing/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/contributors/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/gameplay/mechanics/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/gameplay/scenarios/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/wood/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+</url>
+<url>
+    <loc>https://siglab.railedukit.org/instruction_for_components/construction-magnet_rod/index.html</loc>
+    <lastmod>2025-06-11</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
 </url>

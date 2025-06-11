@@ -1,4 +1,4 @@
-Sitemap: railedukit.github.io/InteractiveSignallingLaboratory-construction/sitemap.xml
+Sitemap: https://siglab.railedukit.org/sitemap.xml
 
 User-agent: *
 Disallow:
